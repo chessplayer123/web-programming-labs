@@ -1,0 +1,26 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 73px;
+}
+
+.projects__heading {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    text-align: center;
+}
+
+.projects__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 49px;
+    overflow: hidden;
+}
+
+.projects__card {
+    width: 600px;
+    height: 350px;
+    border-radius: 6px;
+}

@@ -1,0 +1,93 @@
+.subscriber {
+    display: flex;
+    flex-direction: column;
+    height: 196px;
+    margin-left: 81px;
+    margin-right: 81px;
+    background: #FBBF24;
+    border-radius: 20px;
+    width: 1278;
+    padding-top: 55px;
+    padding-right: 56px;
+    padding-bottom: 55px;
+    padding-left: 56px;
+    color: #FFFFFF;
+}
+
+.subscriber__header-container {
+    display: flex;
+    flex-direction: row;
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: justify;
+}
+
+.subscriber__header {
+    flex-grow: 0;
+    background: #F59E0B;
+    width: 187;
+    border-radius: 39px;
+    padding-top: 5px;
+    padding-right: 14px;
+    padding-bottom: 5px;
+    padding-left: 14px;
+}
+
+.subscriber__email {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: justify;
+}
+
+.subscriber__input {
+    position: relative;
+    background: #F59E0B;
+    border-top-left-radius: 59px;
+    border-bottom-left-radius: 59px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-top: 26px;
+    padding-right: 195px;
+    padding-bottom: 26px;
+    padding-left: 148px;
+}
+
+.subscriber__input::after {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: url("/lab1/img/icons/paper-airplane.svg");
+    width: 79px;
+    height: 79px;
+    top: 0;
+    bottom: 0;
+    height: auto;
+    border-radius: 50%;
+    background: #FCD34D;
+    right: -50px;
+    left: auto;
+    position: absolute;
+}
+
+.subscriber__footnote {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: justify;
+}

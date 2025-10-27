@@ -1,0 +1,81 @@
+.pricing {
+    display: flex;
+    flex-direction: column;
+    gap: 87px;
+    align-items: center;
+}
+
+.pricing__heading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    width: 630px;
+}
+
+.pricing__cards-group {
+    display: flex;
+    flex-direction: row;
+    gap: 84px;
+}
+
+.pricing__card {
+    height: 550px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 62px;
+    padding-right: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing__name {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #262626;
+}
+
+.pricing__price {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #262626;
+    margin-top: 27px;
+}
+
+.pricing__features {
+    margin-top: 27px;
+}
+
+.pricing__feature {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #262626;
+}
+
+.pricing__feature::before {
+    content: url('/lab1/img/icons/check.svg');
+    margin-right: 8px;
+}
+
+.pricing__buy-button {
+    padding-top: 22px;
+    padding-right: 80px;
+    padding-bottom: 22px;
+    padding-left: 80px;
+    margin-top: auto;
+}

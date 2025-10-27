@@ -1,0 +1,84 @@
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    gap: 104px;
+}
+
+.testimonial__heading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.testimonial__cards-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    gap: 85px;
+}
+
+.testimonial__card {
+    width: 500px;
+    padding-top: 43px;
+    padding-right: 45px;
+    padding-bottom: 43px;
+    padding-left: 45px;
+    border-radius: 6px;
+    gap: 31px;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial__client {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.testimonial__client-photo {
+    width: 65px;
+    height: 65px;
+    border: 1px solid #EAB308;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.testimonial__client-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimonial__client-name {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: justify;
+}
+
+.testimonial__client-company {
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: justify;
+    color: #737373;
+}
+
+.testimonial__card-content {
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: justify;
+    width: 410px;
+}

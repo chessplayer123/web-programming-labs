@@ -1,0 +1,79 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    border: 1px solid #E2E8F0;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.header__menu-option, .header__menu-option--shevron {
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #0F172A;
+    padding-top: 12px;
+    padding-right: 8px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+}
+
+.header__menu-option--shevron::after {
+    content: url('/lab1/img/icons/shevron-down.svg');
+    color: #0F172A;
+    margin-left: 8px;
+}
+
+.header__logo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-family: Cabin;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__buttons-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.header__login {
+    color: #FBBC05;
+}
+
+.header__get-started {
+    background: #FBBC05;
+    color: #FFFFFF;
+    padding: 12px;
+    border-radius: 8px;
+}

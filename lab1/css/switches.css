@@ -1,0 +1,21 @@
+.switches {
+    display: flex;
+    justify-content: center;
+}
+
+.switches__button--next, .switches__button--prev {
+    padding-top: 14px;
+    padding-right: 15px;
+    padding-bottom: 14px;
+    padding-left: 15px;
+    box-shadow: 0px 4px 6px -2px #0000000D;
+    box-shadow: 0px 10px 15px -3px #0000001A;
+}
+
+.switches__button--next {
+    background: #FACC15;
+}
+
+.switches__button--prev {
+    background: #F5F5F5;
+}

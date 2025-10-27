@@ -1,0 +1,23 @@
+.blog {
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+}
+
+.blog__heading {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 13px;
+}
+
+.blog__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.blog__card {
+    width: 30%;
+}

@@ -1,0 +1,45 @@
+.title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FACC15;
+}
+
+.subtitle {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0%;
+}
+
+.text {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+.card {
+    background-color: #F5F5F5;
+    border-radius: 6px;
+    box-shadow: 0px 4px 6px -1px #0000001A;
+}
+
+.yellow-button {
+    opacity: 1;
+    border-radius: 6px;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    background: #FACC15;
+}
