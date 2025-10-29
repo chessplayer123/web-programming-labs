@@ -8,7 +8,7 @@
     border-radius: 20px;
     width: 1278;
     padding-top: 55px;
-    padding-right: 56px;
+    padding-right: 106px;
     padding-bottom: 55px;
     padding-left: 56px;
     color: #FFFFFF;
@@ -52,6 +52,11 @@
     text-align: justify;
 }
 
+.subscriber__email-input {
+    display: flex;
+    flex-direction: row;
+}
+
 .subscriber__input {
     position: relative;
     background: #F59E0B;
@@ -63,23 +68,14 @@
     padding-right: 195px;
     padding-bottom: 26px;
     padding-left: 148px;
+    text-wrap: nowrap;
 }
 
-.subscriber__input::after {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    content: url("/lab1/img/icons/paper-airplane.svg");
-    width: 79px;
-    height: 79px;
-    top: 0;
-    bottom: 0;
-    height: auto;
-    border-radius: 50%;
-    background: #FCD34D;
-    right: -50px;
-    left: auto;
-    position: absolute;
+.subscriber__send-button {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-left: -50px;
 }
 
 .subscriber__footnote {

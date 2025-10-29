@@ -68,7 +68,7 @@
 }
 
 .pricing__feature::before {
-    content: url('/lab1/img/icons/check.svg');
+    content: url('/lab2/img/icons/check.svg');
     margin-right: 8px;
 }
 

@@ -36,7 +36,7 @@
 }
 
 .header__menu-option--shevron::after {
-    content: url('/lab1/img/icons/shevron-down.svg');
+    content: url('/lab2/img/icons/shevron-down.svg');
     color: #0F172A;
     margin-left: 8px;
 }
